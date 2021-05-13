@@ -1,0 +1,42 @@
+body
+{
+    background-image: url('images/fond_page.png');
+    background-attachment: fixed;
+}
+    
+@font-face
+{
+    font-family: 'MaSuperPolice';
+    src: url('fonts/AlexBrush-Regular.ttf');
+}
+
+h1, h2
+{
+    font-family: 'MaSuperPolice', sans-serif;
+}
+
+h1
+{
+    color: rgb(37, 206, 31);
+    border: 3px blue dashed;
+}
+
+.competences
+{
+    text-align: center;
+}
+
+h3
+{
+    text-shadow: 2px 2px 4px rgb(20, 212, 78);
+}
+
+p
+{
+    width: 50%;
+    min-width: 200px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid rgb(201, 125, 11);
+    overflow: auto;
+}
