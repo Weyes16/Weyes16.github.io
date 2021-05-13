@@ -1,42 +1,165 @@
-body
-{
-    background-image: url('images/fond_page.png');
-    background-attachment: fixed;
-}
-    
+
+/* POLICES */
+
 @font-face
 {
-    font-family: 'MaSuperPolice';
-    src: url('fonts/AlexBrush-Regular.ttf');
+    font-family: 'ma_police_VictorMono';
+    src: url('fonts/VictorMono-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1, h2
+@font-face
 {
-    font-family: 'MaSuperPolice', sans-serif;
+    font-family: 'ma_police_Reey';
+    src: url('fonts/Reey-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* BODY */
+
+body, p
+{
+    background-color: rgb(212, 236, 255); 
+    color: rgb(2, 0, 107); 
+    /* background-image: url("images/fond_page_2.jpg");
+    background-attachment: scroll;
+    width : max; */
+    font-family: 'ma_police_VictorMono', serif;
+    font-size: 1em;    
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 20px;
+    margin: 50px;
+    text-align: justify;
+}
+
+aside 
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 50px;
+    text-align: center;
+}
+
+.titre_principal
+{
+    display: flex;
+    flex-direction: column;
 }
 
 h1
 {
-    color: rgb(37, 206, 31);
-    border: 3px blue dashed;
+    font-family: 'ma_police_Reey', serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(255, 254, 189);
+    margin: 50px;
 }
 
-.competences
+h2
 {
-    text-align: center;
+    font-family: 'ma_police_Reey', serif;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgb(255, 254, 189);
+    margin: 50px;
 }
 
 h3
 {
-    text-shadow: 2px 2px 4px rgb(20, 212, 78);
+    font-family: 'ma_police_VictorMono', serif;
+    font-size: 1.5em;    
+    text-shadow: 2px 2px 4px rgb(122, 255, 177);
+    margin: 10px;
 }
 
-p
+h4
 {
-    width: 50%;
-    min-width: 200px;
-    height: 110px;
-    text-align: justify;
-    border: 1px solid rgb(201, 125, 11);
-    overflow: auto;
+    font-family: 'ma_police_VictorMono', serif;
+    font-size: 1em;    
+    margin: 10px;
+}
+
+
+/* LISTES */
+
+.liste
+{
+    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+    list-style-position: inherit;
+}
+
+dd, dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+  
+
+
+/* HEADER */
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+/* NAVIGATION */
+
+.navigation_page
+{
+    text-transform: uppercase;
+}
+
+nav ul
+{
+    display: flex;
+list-style-type: "\1F44D"
+
+}
+
+nav li
+{
+    display: flex;
+    margin-right: 40px;
+}
+
+.boutons 
+{
+    border: 0;
+    line-height: 2;
+    padding: 0 10px;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(2, 0, 107); 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+/* FOOTER */
+
+footer
+{
+    text-align: right;
 }

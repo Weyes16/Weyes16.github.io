@@ -2,74 +2,139 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="description" content="Projet Simplon - Ma carte de visite - Mai 2021 - Frédéric PRUNEAU">
         <link rel="stylesheet" href="styles.css" />
+        <title>Frédéric PRUNEAU - Carte de visite</title>
+        <link rel="icon" href="images/mon_favicon_32x32.png" />
     </head>
 
     <body>
-       
-        <p>
-            <header>               
-                <h1>Mon CV</h1>
-                <h2>PRUNEAU Frédéric</h2><br />
-            </header>
+        <header>
+            <div class="titre_principal">
+                <h2>Frédéric Pruneau</h2>
+            </div>
+            <div>
+                <h1>Ma carte de visite</h1>
+            </div>
+            <div class="navigation_page">
+                <nav>
+                    <h3><a href="#mon_cv_en_bref">CV en bref</a></h3>
+                    <h3><a href="#mes_contacts">Me contacter</a></h3>
+                </nav>
+            </div>
+        </header>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">CV</a></li>
-                    <li><a href="#">Lettre motivation</a></li>
+        <section>
+            <article>
+                <h2>Je suis en reconversion professionnelle</h2>
+
+
+                
+                <ul class="liste">
+                    <li>Élément 1</li>
+                    <li>Élément 2</li>
+                    <li>Élément 3</li>
+                    <li>Élément 4</li>
                 </ul>
-            </nav>
 
-            <section>
-                <aside>
-                    <h1>A propos de l'auteur</h1>
-                    <p>C'est moi. Je suis née bla bla bla</p>
-                </aside>
+                <h2>Liste de courses (non ordonnée)</h2>
+                    <p>Paragraphe de référence, paragraphe de référence, paragraphe de référence,
+                    paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
+                        <ul>
+                            <li>Houmous</li>
+                            <li>Pain blanc</li>
+                            <li>Salade verte</li>
+                            <li>Fromage halloumi</li>
+                        </ul>
+                <h2>Liste de recette (ordonnée)</h2>
+                    <p>paragraphe de référence, paragraphe de référence, paragraphe de référence,
+                    paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
+                        <ol>
+                            <li>Faire griller le pain pitta, laisser refroidir, puis le trancher sur le côté.</li>
+                            <li>Frire l'halloumi dans une poêle plate antiadhésive, jusqu'à ce qu'il soit doré des deux côtés.</li>
+                            <li>Laver et hacher la salade.</li>
+                            <li>Mettre la salade, l'houmous et l'halloumi frit entre les tranches de pain.</li>
+                        </ol>
+                <h2>Liste descriptive des ingrédients</h2>
+                    <p>paragraphe de référence, paragraphe de référence, paragraphe de référence, paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
 
-                <article>
-                    <h1>Je suis un grand rêveur</h1>
-                    <p>Ici là là là</p>
+                        <dl>
+                            <dt>Houmous</dt>
+                                <dd>Une purée ou sauce épaisse généralement faite de pois chiches mélangés avec du tahini, du jus de citron, du sel, de l'ail et d'autres aromates.</dd>
+                            <dt>Pain pitta</dt>
+                                <dd>Un pain plat moelleux, légèrement levé.</dd>
+                            <dt>Halloumi</dt>
+                                <dd>Fromage à pâte mi-dure, non affiné, saumuré, à point de fusion plus élevé que d'habitude, généralement fabriqué à partir de lait de chèvre et de brebis.</dd>
+                            <dt>Salade verte</dt>
+                                <dd>Ces feuilles vertes et saines que beaucoup d'entre nous n'utilisent que pour garnir les kebabs.</dd>
+                        </dl>
+
+
+
+
+                <p>Suite à ma formation initiale, mon premier emploi m’a donné l’opportunité de revenir en région parisienne pour une mission de relecture corrective des traductions de brevets internationaux. Après plus de 2 ans, j’ai décidé de changer d’environnement professionnel pour un emploi pérenne, avec plus de relations humaines, de dynamisme et aux résultats visibles : le métier de facteur. Il est dans mon caractère de chercher à améliorer mon travail donc, au sein de La Poste, j’ai d’abord participé comme membre au comité d'hygiène, de sécurité et des conditions de travail (CHSCT) local. Pendant quelques années, j’ai aussi suivi la formation sauveteur secouriste du travail (SST). Par ailleurs, très engagé dans d’autres activités extra-professionnelles, j’ai évolué naturellement à mon poste de titulaire de quartier de lettres, apprécié pour la qualité de ma distribution courrier et mon relationnel client.</p>
+                <p>Je souhaite avant tout concrétiser ma reconversion professionnelle en m’investissant dans un domaine plus en accord avec mes capacités de réflexion et mes appétences. Le mode de formation par alternance apporte une vision précoce et concrète de la fonction de développeur web/web mobile. J’apprécie la méthode pédagogique (active) proposée dans ce parcours : piloter l’élève dans son auto-apprentissage, basée sur son intérêt personnel et son éveil progressif à sa compétence technique, dans un environnement bienveillant et solidaire, pour l’accompagner dans la résolution des problèmes rencontrés dans diverses situations. Précisément, je voudrais acquérir des compétences dans la conception et la réalisation de solutions informatiques, que j’appliquerai aussi dans mes activités associatives qui nécessitent un nouvel outil d’ouverture et de développement qu’offre un site web. </p>
+            </article>
+            <aside>
+                <h2>Mon profil</h2>
+                <p id="photo_cv"><img src="images/photo_cv_1.jpg" alt="Photo de CV 1" /></p>
+            </aside>
+        </section>
+
+        <section>
+            <article>
+                <h2 id="mon_cv_en_bref">Curriculum Vitae en bref</h2>
+                    <h3>Mon expérience</h3>
+                        <p><ul>
+                            <li>DEPUIS FEVRIER 2005 (17 ANS)<br />
+                                FACTEUR, GROUPE LA POSTE (MALAKOFF – 92)</li>
+                            <li>AOUT 2003 – JANVIER 2005 (2,5 ANS)<br />
+                                RELECTEUR DE BREVET, CABINET LAVOIX - CONSEIL EN PROPRIETE INDUSTRIELLE (PARIS - 75)</li>
+                        </ul></p>
+                <span class="competences">
+                    <h3>Mes compétences</h3>
+                        <ol>
+                            <li>Traitement et distribution des objets confiés sur son quartier de lettres, dans le respect des réglementations postales et normes de sécurités collectives</li>
+                            <li>Application de la qualité du service et des prestations dans le respect des procédures</li>
+                            <li>Signalement des dysfonctionnements et anomalies à son responsable opérationnel (bonne appréciation générale)</li>
+                    </ol>
+                </span>
+                    <h3>Ma formation</h3>
+                        <ul>
+                            <li>2003<br />
+                                D.U. ACTUALISATION DES CONNAISSANCES EN INFORMATIQUE<br />
+                                ECOLE POLYTECHNIQUE / E3I (TOURS - 37)</li>
+                            <li>2001<br />
+                                (NIVEAU) D.E.A. DE CANCEROLOGIE<br />
+                                UNIVERSITE PARIS XI (LE KREMLIN BICETRE - 94)</li>
+                            <li>2000<br />
+                                MAITRISE DE BIOLOGIE, OPTION GENETIQUE SUPPLEMENTEE EN GENOMIQUE<br />
+                                UNIVERSITE PARIS XI (ORSAY - 91)</li>
+                        </ul>
+                    <div class="boutons">
+                        <h3>Pour en savoir plus : cliquez ici !</h3>
+                        <a href="fichiers/CV_PRUNEAU_Frederic_2021-04-08.pdf"><input class="bouton_cliquable_cv" type="button" value="Mon CV complet"></a>
+                        <a href="fichiers/Lettre_PRUNEAU_Frederic_2021-04-08.pdf"><input class="bouton_cliquable_lettre" type="button" value="Ma lettre de motivation"></a>
+                    </div>
                 </article>
+                <aside>
+                    <h2 id="mes_contacts">Me contacter :</h2>
+                        <h4>Frédéric PRUNEAU</h4>
+                        <h4>(+33) 0 68 1 77 0 33 1</h4>
+                        <h4><a href="mailto:frederic.pruneau@gmail.com">frederic.pruneau@gmail.com</a></h4>
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/frederic-pruneau/" title="LinkedIn"><img src="icons/linkedin.png" alt="LinkedIn" /></a></li>
+                            <li><a href="https://github.com/Weyes16" title="GitHub"><img src="icons/github.png" alt="GitHub" /></a></li>
+                            <li><a href="https://openclassrooms.com/fr/members/xzzm5vmhkf71" title="OpenClassrooms"><img src="icons/openclassrooms.png" alt="OpenClassrooms" /></a></li>
+                            <li><a href="https://www.hackerrank.com/frederic_pruneau" title="HackerRank"><img src="icons/hackerrank.png" alt="HackerRank" /></a></li>
+                        </ul>
+                    </nav>
+                </aside>
             </section>
 
-            <a href="images/ma_photo_cv.jpg"><img src="images/ma_photo_cv_mini.jpg" alt="Ma photo" title="Cliquez pour me voir en grand" /></a>
-
-            <h3>Mon expérience</h3>
-                <ul>
-                    <li>DEPUIS FEVRIER 2005 (17 ANS)<br />
-                        FACTEUR, GROUPE LA POSTE (MALAKOFF – 92)</li>
-                    <li>AOUT 2003 – JANVIER 2005 (2,5 ANS)<br />
-                        RELECTEUR DE BREVET, CABINET LAVOIX - CONSEIL EN PROPRIETE INDUSTRIELLE (PARIS - 75)</li>
-                </ul>
-
-            <span class="competences"><h3>Mes compétences</h3>
-                <ol>
-                    <li>Traitement et distribution des objets confiés sur son quartier de lettres, dans le respect des réglementations postales et normes de sécurités collectives</li>
-                    <li>Application de la qualité du service et des prestations dans le respect des procédures</li>
-                    <li>Signalement des dysfonctionnements et anomalies à son responsable opérationnel (bonne appréciation générale)</li>
-                </ol></span>
-               
-                <h3>Ma formation</h3>
-                <ul>
-                    <li>2003<br />
-                        D.U. ACTUALISATION DES CONNAISSANCES EN INFORMATIQUE<br />
-                        ECOLE POLYTECHNIQUE / E3I (TOURS - 37)</li>
-                    <li>2001<br />
-                        (NIVEAU) D.E.A. DE CANCEROLOGIE<br />
-                        UNIVERSITE PARIS XI (LE KREMLIN BICETRE - 94)</li>
-                    <li>2000<br />
-                        MAITRISE DE BIOLOGIE, OPTION GENETIQUE SUPPLEMENTEE EN GENOMIQUE<br />
-                        UNIVERSITE PARIS XI (ORSAY - 91)</li>
-                </ul>
-
-             
-            </p>          
-            
             <footer>
-                <p>Tous droits réservés</p>
-                <a href="#">Me contacter</a>
+                <p>Page mise à jour le 14 mai 2021 - Tous droits réservés</p>
             </footer>
-     </body>
-     
+     </body>     
 </html>
