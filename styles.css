@@ -24,20 +24,20 @@ body, p
 {
     background-color: rgb(212, 236, 255); 
     color: rgb(2, 0, 107); 
-    /* background-image: url("images/fond_page_2.jpg");
-    background-attachment: scroll;
-    width : max; */
     font-family: 'ma_police_VictorMono', serif;
     font-size: 1em;    
 }
 
-section
+#section_1, #section_2
 {
-    display: flex;
-    margin-bottom: 20px;
+    display: inline flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 50px;
 }
 
-article {
+.article_1, .article_2
+{
     width: auto;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ article {
     text-align: justify;
 }
 
-aside 
+.aside_1, .aside_2
 {
     width: 30%;
     display: flex;
@@ -55,12 +55,6 @@ aside
     justify-content: right;
     margin: 50px;
     text-align: center;
-}
-
-.titre_principal
-{
-    display: flex;
-    flex-direction: column;
 }
 
 h1
@@ -95,12 +89,37 @@ h4
     margin: 10px;
 }
 
+h5
+{
+    font-family: 'ma_police_VictorMono', serif;
+    font-size: 1em;    
+    font-style: italic;
+    margin: 10px;
+}
+
+
+/* HEADER */
+
+#header_1
+{
+    display: inline flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+}
+
 
 /* LISTES */
 
-.liste
+.liste_1
 {
-    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+    list-style-image: url("images/starsolid.gif");
+    list-style-position: inherit;
+}
+
+.liste_2
+{
+    list-style-image: url("images/starsolid_orange.gif");
     list-style-position: inherit;
 }
 
@@ -110,17 +129,6 @@ dd, dt {
 
 dt {
     font-weight: bold;
-}
-  
-
-
-/* HEADER */
-
-header
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
 }
 
 
